@@ -1,0 +1,208 @@
+/*navbar*/
+.navbar-nav .nav-link {
+    color: white; /* Ensures the text is visible on the dark background */
+    justify-content: center;
+
+  }
+
+  #navbarNav {
+    background-color: #232f3e;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    word-spacing: 25px;  
+  }
+
+  .navbar-brand img {
+    height: 80px; /* Adjust logo height as needed */
+    margin-right: 700px;
+    justify-content: center; 
+    margin-left: 3px;
+  }
+.d-flex{
+    margin-left: 800px;
+    display: flex;
+
+}
+
+  /*Body*/
+/* Card Styles */
+.heading{
+    margin-left: 100px;     
+  font-family: "Playwrite DK Loopet", cursive;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #457b9d;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,2fr));
+    gap: 60px;
+  }
+  /* Card Styles */
+  .card {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 50s, box-shadow 0.3s;
+    margin-top: 9px;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  .card-img-top {
+    height: 150px;
+    object-fit: cover;
+    margin-top: 20px;
+    
+  }
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  .card-text {
+    font-size: 1rem;
+    color: #555;
+  }
+  .card a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  .card a:hover {
+    color: #0056b3;
+  } 
+
+  @media only screen and (max-width: 1080px) {
+    .h1 {
+        font-size: 2.2rem;
+    }
+    .p {
+        font-size: 1.2rem;
+    }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        padding: 10px;
+        width: 40%;
+        margin-left: -1%;
+    }
+    .navbar-brand img {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    .navbar-nav .nav-link{
+        margin-right: 100%;
+        gap: 10px;
+    }
+
+    .card-container {
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: 0;
+    }
+    .card {
+        max-width: 30%;
+        margin-left: 10px;
+    }
+}
+
+  /*About Us Page*/
+  container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .abt{
+    font-family: 'Playwrite DK Loopet', cursive;
+    font-weight: 400;
+    color: #457b9d;
+    margin-bottom: 20px;
+    margin-top: 5px;
+
+  }
+  .about-content {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: calc(100vh - 250px); /* Ensures the footer is visible */
+    overflow-y: auto;
+  }
+  
+  .about-content p {
+    font-family: 'Playwrite BE VLG', sans-serif;
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .about-image {
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto 20px;
+  }
+  .soft{
+    margin-left: 150px;
+  }
+
+  /*Footer*/
+footer {
+    background-color: #232f3e;
+    height: 90px;
+    align-items: center;
+    max-width: 1890px;
+}
+.footer-content {
+    display: flex;
+  }
+  
+  .footer-section img {
+    height: 80px; /* Adjust the size of the footer logo as needed */
+    width: 80px;
+  }
+  
+  .social-icons a {
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change to the desired hover color */
+  }
+  .footer-content1{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 800px;
+  }
+  .a{
+    color: #fff;
+    width: 30px;
+    height: 10px;
+  }
+  .b{
+    align-items: right;
+    display: flex;
+    color: #fff;
+    justify-content: right;
+    margin-right: -800px;
+    margin-top: -80px ;
+  }

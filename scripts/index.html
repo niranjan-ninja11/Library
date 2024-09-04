@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid" id="navbarNav">
+      <a class="navbar-brand" href="index.html">
+       <img src="../images/logo.png" alt="Logo">
+      </a>
+      <div class="collapse navbar-collapse justify-content-center">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="about.html">AboutUs</a>
+          <a class="nav-link" href="books.html">Books</a>
+          <a class="nav-link" href="soft.html">Softwares</a> 
+        </div>
+        <div>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <h3 class="heading">Updates</h3>
+  <!-- Card containers(body) -->
+  <div class="container mt-4">
+    <div class="card-container">
+      <div class="card">
+        <img src="../images/ml.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Machine Learning</h5>
+          <p class="card-text">Pattern Recognition and Machine Learning by Cristopher M.Bishop</p><br>
+          <a href="../docs/ML.7z" download="Machine_Learning_Book.7z" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/cns.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cryptography and Network Security</h5>
+          <p class="card-text">CNS by William Sterlling (7th edition)</p>
+          <a href="../docs/CNS.7z" download="Cryptography and Network Security.7z" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/ip.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Internet and WWW</h5>
+          <p class="card-text">Internet and WWW by Deitel (2nd Edition)</p><br>
+          <a href="../docs/IP.7z" download="Internet and WWW.7z" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="../images/cloud.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Cloud Computing</h5>
+          <p class="card-text">Cloud Computing A pratical approach by Anthony.T.Velte Toby.J.Velte Robert Elsenpeter</p>
+          <a href="../docs/Cloud.7z" download="Cloud Computing.7z" class="btn btn-primary">Download</a>
+        </div>
+      </div>
+      <!-- Additional cards can be added here -->
+    </div>
+  </div>
+
+<!--Footer-->
+  <footer style="position: absolute; bottom: 0; width: 100%;">
+    <div class="footer-content">
+        <div class="footer-section">
+            <a class="navbar-brand">
+            <img src="../images/logo.png" alt="Logo" style="margin-top:5px">
+            <a class="a">
+              © COPYRIGHTS RESERVED 2024
+            </a>
+            <a class="b">
+                Contact us  
+                Phone:+12 345 678 910<br><br>
+                Address:Oxford Univresity,<br>
+                United Kingdom
+            </a>
+            </a>    
+        </div>
+    </div>
+</footer>
+</body>
+</html>
