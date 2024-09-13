@@ -1,7 +1,6 @@
 # Library
-This is an aesthetic and user friendly library built with HTML and CSS.  Users can download academic and comic books.
+This is an aesthetic and user friendly library built with HTML and CSS.  Users can download academic books.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 script folder contains all the HTML and CSS pages.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 images folder contains required images for HTML pages such as logo of the page, etc.. 
@@ -9,4 +8,5 @@ images folder contains required images for HTML pages such as logo of the page, 
 docs folder contains all the required books as a zip file.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Some new academic books have been updated. So stay tuned for intesting comic books.
+Some new academic books have been updated.
+Comic Books will be updated soon.
